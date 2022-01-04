@@ -1,0 +1,14 @@
+{
+	"name": "Dev Container python env",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "[[project_name]]_python",
+	"workspaceFolder": "/workspace/python/work",
+	"shutdownAction": "stopCompose",
+	
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"extensions": []
+
+}
