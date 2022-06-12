@@ -20,7 +20,9 @@ RUN unzip NotoSansCJKjp-hinted.zip && \
 WORKDIR /
 RUN rm -rf /noto
 
-RUN npm install -g @angular/cli
+RUN npm install -g @angular/cli @vue/cli
+
+ENV CHROME_BIN="/usr/bin/chromium-browser"
 
 WORKDIR /workspace
 
